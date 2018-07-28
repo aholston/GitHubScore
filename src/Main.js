@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ScoreForm from './ScoreForm';
+import Score from './Score';
 import axios from 'axios';
 
 class Main extends Component {
@@ -32,6 +33,7 @@ class Main extends Component {
       <div>
         <h1>Hello World</h1>
         <ScoreForm onSubmit = {this.onSubmit}/>
+        <Score score = {this.state.score}/>
       </div>
     )
   }
