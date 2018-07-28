@@ -53,4 +53,4 @@ class Score extends Component {
     }
 }
 
-expot default Score
+export default Score
